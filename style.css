@@ -1,0 +1,87 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin : 0;
+}
+h1{
+    font-size: 48px;
+}
+p{
+    font-size: 17px;
+}
+
+
+/* Intro Section */
+.intro{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+    height: 530px;
+
+}
+.text-color{
+    color: orange;
+}
+.button{
+    text-decoration: none;
+     background : linear-gradient(40deg, #e99862, #d17537);
+    /* background-color: orange; */
+    padding: 10px 15px;
+    color: white;
+}
+
+
+/* Layout 40% */
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding :2%;
+    margin-top: 6%;  
+}
+.half-width img{
+    width : 100%;
+}
+
+
+/* Aim Section */
+.aim{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    height: 930px;
+    background-position: right;  
+}
+
+
+
+/* Experience Section */
+.experience{
+    height: 630px;
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;  
+}
+.box{
+    box-shadow: 10px 10px 20px grey;
+    border-left: 5px solid;
+    border-image: linear-gradient(lightSalmon,tomato);
+    border-image-slice: 1;
+    background-color: white;
+
+}
+.box a{
+    text-decoration: none;
+}
+.box .button{
+    width: 34%;
+    text-align: center;
+}
+
+
+
+
+/* Footer */
+.experience h1,footer{
+    color: grey;
+    text-align: center;
+}
+
+
